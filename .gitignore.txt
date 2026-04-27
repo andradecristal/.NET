@@ -1,0 +1,6 @@
+# Ignorar carpetas de compilación de C# .NET
+bin/
+obj/
+
+# Ignorar configuraciones locales del editor
+.vscode/
