@@ -27,7 +27,7 @@ public class Cuenta
     {
         //return new List<Cuenta>(s_cuentas);
     }*/
-    public static List<Cuenta> Cuentas => new List<Cuenta>(s_cuentas);
+    public static List<Cuenta> GetCuentas() => new List<Cuenta>(s_cuentas);
     
     public static void ImprimirDetalle()
     {
